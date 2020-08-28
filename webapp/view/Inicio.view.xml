@@ -1,0 +1,20 @@
+<mvc:View controllerName="appPDF.appPDF.controller.Inicio" 
+xmlns:mvc="sap.ui.core.mvc" 
+displayBlock="true" 
+xmlns:l="sap.ui.layout"
+xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<l:VerticalLayout id="idVerticalLayout" class="sapUiContentPadding" width="100%"></l:VerticalLayout>
+					<FlexBox alignItems="Center" justifyContent="Center">
+				      <items>
+				        <Button type="Accept" press="onPress" text="Convertir" width="100%" />
+				      </items>
+    				</FlexBox>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
